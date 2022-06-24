@@ -361,10 +361,11 @@ header .logo-menu a {
     font-weight: 700;
 	font-family: poppins-medium,sans-serif;
 	color: inherit;
+	transition: 0.5s all;
 }
 .contact-button:hover{
 	border: 2px double #cc005f;
-	transition: 0.5s;
+	transition: 0.5s all;
 	color: #cc005f;
 }
 
