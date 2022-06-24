@@ -94,7 +94,7 @@
 // ≥768px
 @include media-breakpoint-down(sm) {
     #intro {
-        background-size: inherit;
+        background-size: auto;
     }
 
     .edu-name {
