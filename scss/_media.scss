@@ -1,0 +1,150 @@
+@import "vars";
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
+@include media-breakpoint-down(lg) {
+    .edu-name p{
+        padding-left: 5px;
+    }
+    .edu-name h3{
+        font-size: 17px;
+    }
+    .front-name {
+        padding-left: 25px;
+    }
+    .portfolio-item {
+        padding-left: 170px;
+    }
+    .tech-name {
+        padding-left: 3px;
+    }
+    .specific{
+        margin-left: 0;
+    }
+}
+
+// ≥992px
+@include media-breakpoint-down(md) {
+    .education-wrap::before {
+        display: none;
+    }
+
+    .institution-ico, .edu-content{
+        display: none;
+    }
+
+    .text{
+        padding-left: 20px;
+        font-size: 20px;
+    }
+    .tech-name, .edu-name p{
+        padding-left: 0px;
+    }
+    .front-name {
+        padding-left: 20px;
+    }
+    .edu-content h4 {
+        font-size: 18px;
+    }
+    .edu-content p{
+        font-size: 15px;
+    }
+    .clixy-item{
+        text-align: center;
+    }
+    .pfr-item{
+        text-align: center;
+    }
+    .portfolio-item{
+        padding-left: 0px;
+    }
+    .specific{
+        margin-left: 0;
+    }
+    .description {
+        display: block;
+        text-align: center;
+
+        img {
+            margin-left: 0;
+        }
+
+        p {
+            margin-top: 30px;
+        }
+    }
+
+    .resume-col {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .contact-wrapper {
+        flex-direction: column;
+    }
+}
+
+// ≥768px
+@include media-breakpoint-down(sm) {
+    .edu-name {
+        padding-bottom: 26px;
+        text-align: center;
+    }
+    .specific.info{
+        text-align: center;
+        margin-left: 0;
+        text-align: center;
+
+        .charact {
+            margin-top: 30px;
+        }
+    }
+    #intro h1{
+        font-size: 40px;
+    }
+    .specialization{
+        font-size: 12px;
+    }
+    #intro h5{
+        font-size: 15px;
+    }
+    header {
+        display: none;
+    }
+
+    .work-wrapper {
+        margin-top: 20px;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+// ≥576px
+@include media-breakpoint-down(xs) {
+    
+}
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
+@include media-breakpoint-up(sm) {
+
+}
+
+// ≤768px
+@include media-breakpoint-up(md) {
+
+}
+
+// ≤992px
+@include media-breakpoint-up(lg) {
+
+}
+
+// ≤1200px
+@include media-breakpoint-up(xl) {
+	
+}
