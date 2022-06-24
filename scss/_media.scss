@@ -93,6 +93,11 @@
 
 // ≥768px
 @include media-breakpoint-down(sm) {
+
+    h2 {
+        font-size: 28px;
+    }
+
     #intro {
         background: url(../img/intro-bg.png) top;
         background-attachment: fixed;
