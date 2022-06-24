@@ -93,6 +93,10 @@
 
 // ≥768px
 @include media-breakpoint-down(sm) {
+    #intro {
+        background-size: inherit;
+    }
+
     .edu-name {
         padding-bottom: 26px;
         text-align: center;
