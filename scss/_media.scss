@@ -94,7 +94,7 @@
 // ≥768px
 @include media-breakpoint-down(sm) {
     #intro {
-        background-size: auto;
+        background: url(../img/intro-bg.png);
     }
 
     .edu-name {
