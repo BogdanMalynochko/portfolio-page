@@ -95,6 +95,7 @@
 @include media-breakpoint-down(sm) {
     #intro {
         background: url(../img/intro-bg.png) top;
+        background-attachment: fixed;
     }
 
     .edu-name {
