@@ -195,10 +195,11 @@ header .logo-menu a {
 	opacity: 1;
 	font-size: 12px;
 	font-weight: bold;
+	transition: 0.5s all;
 }
 #intro .button:hover{
 	border: 2px double #cc005f;;
-	transition: 0.5s;
+	transition: 0.5s all;
 }
 .intro-social {
     display: block;
